@@ -5,10 +5,7 @@ Ghost Eye - Information Gathering Tool
 
 Ghost Eye is an Information Gathering Tool I made in python 3. To run Ghost Eye, it only needs a domain or ip. Ghost Eye can work with any Linux distros if they support Python 3.
 
-<a href="https://github.com/BullsEye0/ghost_eye/blob/master/">https://github.com/BullsEye0/ghost_eye/blob/master/</a>
-
-
-ghost_eye source https://github.com/BullsEye0/ghost_eye by BullsEye0
+source: <a href="https://github.com/BullsEye0/ghost_eye/blob/master/">https://github.com/BullsEye0/ghost_eye/</a>
 
 
 # usage: 
