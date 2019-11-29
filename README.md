@@ -1,6 +1,6 @@
 # Docker version of Ghost Eye by BullsEye0
 
-#Origin:
+# Origin:
 Ghost Eye - Information Gathering Tool
 
 Ghost Eye is an Information Gathering Tool I made in python 3. To run Ghost Eye, it only needs a domain or ip. Ghost Eye can work with any Linux distros if they support Python 3.
@@ -11,11 +11,11 @@ Ghost Eye is an Information Gathering Tool I made in python 3. To run Ghost Eye,
 ghost_eye source https://github.com/BullsEye0/ghost_eye by BullsEye0
 
 
-#usage: 
-  <div><b>
-  buildit to create python container with ghost_eye
+# usage: 
+  <div>
+  <b>buildit</b> to create python container with ghost_eye
 
-  runit to start the container
+  <b>runit</b> to start the container
 
   </b>
   <br>
