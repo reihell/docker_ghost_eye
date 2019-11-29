@@ -19,5 +19,5 @@ ghost_eye source https://github.com/BullsEye0/ghost_eye by BullsEye0
 
   </b>
   <br>
-  *** rm_all_not_running removes ALL stopped containers, even other containers "do it at your own risk!" ***
+  *** <b>rm_all_not_running</b> removes ALL stopped containers, even other containers "do it at your own risk!" ***
   </div>     
