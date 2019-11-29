@@ -14,5 +14,6 @@ source: <a href="https://github.com/BullsEye0/ghost_eye/blob/master/">https://gi
 
   <b>runit</b> to start the container
 
-  <b>rm_all_not_running</b> removes stopped containers <b>*** THIS REMOVES ALL STOPPED CONTAINERS, DO IT YOUR OWN RISK ***</b>
+<b>*** THIS REMOVES ALL STOPPED CONTAINERS, DO IT YOUR OWN RISK ***</b>
+  <b>rm_all_not_running</b> removes stopped containers
   </div>     
