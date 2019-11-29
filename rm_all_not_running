@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Stopped containers"
+docker container ls -a --filter status=exited --filter status=created
+echo
+echo "This will remove all stopped containers"
+read -p "Are you sure? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    docker container prune -f
+fi
