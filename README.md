@@ -16,8 +16,9 @@ ghost_eye source https://github.com/BullsEye0/ghost_eye by BullsEye0
 
 # usage: 
   <div><b>
-  buildit to create python container with ghost_eye
-  runit to start the container
+  buildit to create python container with ghost_eye<br>
+  runit to start the container<br>
   </b>
+  <br>
   *** rm_all_not_running removes ALL stopped containers, even other containers "do it at your own risk!" ***
   </div>     
