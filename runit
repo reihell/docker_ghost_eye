@@ -2,4 +2,4 @@
 docker_name="ghost_eye"
 echo "Starting $docker_name..."
 docker container stop $docker_name
-docker run -ti --name ghost-eye $docker_name
+docker run -ti --name $docker_name $docker_name

@@ -6,9 +6,17 @@ read -p "Are you sure? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
- docker container stop $docker_name
- docker container stop $docker_name
- docker container rm $docker_name
- docker image rm $docker_name
+ if [ $(docker inspect -f '{{.State.Running}}' $docker_name) ]; then
+  echo "Container running, forcing stop..."
+  docker kill $docker_name
+ fi
+
+ if [ "$(docker ps -a | grep $docker_name)" ]; then
+  echo "Found container, removing it..."
+  docker container stop $docker_name
+  docker container rm $docker_name
+  docker image rm $docker_name
+ fi
  docker build -t $docker_name .
 fi
+echo
