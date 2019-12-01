@@ -1,0 +1,11 @@
+#!/bin/bash
+# Removes lines in python code that does not work
+# orig wget https://raw.githubusercontent.com/BullsEye0/ghost_eye/master/ghost_eye.py
+ghost_eye_location="/root/ghost_eye/ghost_eye.py"
+ghost_eye_location="ghost_eye.py"
+
+echo Planned Fixing python code for not working menu option
+sed -i 's/os.system\(\"reset\"\)/print\(\"EtherApe – Does not work in docker enviroment\"\)/g' $ghost_eye_location
+
+#                os.system("reset")
+#                os.system("gnome-terminal -e 'bash -c \"sudo etherape; exec bash\"'")

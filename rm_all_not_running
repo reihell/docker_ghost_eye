@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Stopped containers"
+# A Note $(docker images -f "dangling=true")
 docker container ls -a --filter status=exited --filter status=created
 echo
 echo "This will remove all stopped containers"
